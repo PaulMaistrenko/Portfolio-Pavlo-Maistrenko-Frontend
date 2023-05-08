@@ -1,0 +1,18 @@
+@import './reset.css';
+@import './normalize.css';
+@import './header.css';
+@import './footer.css';
+@import './contacts.css';
+@import './about.css';
+@import './projects.css';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+	/* Colors */
+	--yellow: #ffd700;
+  --blue: #4095cd;
+  --white: #fff;
+}
+
+
+
