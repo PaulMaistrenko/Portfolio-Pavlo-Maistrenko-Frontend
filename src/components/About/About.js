@@ -10,17 +10,17 @@ import git from '../../images/icons/git-bash.svg';
 export const About = () => {
   return (
     <main>
-      <section className="main" id="wave-background">
-        <div className="main__content">
-          <h1 className="main__content-title">
+      <section className="about">
+        <div className="about__content">
+          <h1 className="about__content-title">
             <strong>Hi, my name is <br /> <em>Pavlo Maistrenko</em></strong><br />
             a frontend developer
           </h1>
-          <div className="main__content-text">
+          <div className="about__content-text">
             <p>with passion to creating and improving.</p>
           </div>
           <a
-            href="./src/files/CV Pavlo Maistrenko Frontend Dev.pdf"
+            href="../../files/CV Pavlo Maistrenko FrontEnd.pdf"
             className="button"
             download
           >

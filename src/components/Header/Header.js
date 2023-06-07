@@ -1,30 +1,31 @@
+import { NavLink } from "react-router-dom";
+
 export const Header = () => {
+  const activeLink = 'nav-list__link nav-list__link--active';
+  const normalLink = 'nav-list__link';
+
   return (
     <header className="header">
         <div className="nav-row">
-          <a href="/" className="logo"><strong>My</strong> portfolio</a>
+          <NavLink to="/" className="logo">
+            <strong>My</strong> portfolio
+          </NavLink>
           <ul className="nav-list">
-            <li className="nav-list__item active">
-              <a href="/"
-                className="nav-list__link active"
-              >
+            <li className="nav-list__item">
+              <NavLink to="/" className={({isActive}) => isActive ? activeLink : normalLink}>
                 About me
-              </a>
+              </NavLink>
             </li>
             <li className="nav-list__item">
-              <a href="/projects.html"
-                className="nav-list__link"
-              >
+              <NavLink to="/projects" className={({isActive}) => isActive ? activeLink : normalLink}>
                 Projects
-              </a>
-            </li>
+              </NavLink>
+             </li>
             <li className="nav-list__item">
-              <a href="/contacts.html"
-                className="nav-list__link"
-              >
+              <NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : normalLink}>
                 Contacts
-              </a>
-            </li>
+              </NavLink>
+             </li>
           </ul>
         </div>
       </header>

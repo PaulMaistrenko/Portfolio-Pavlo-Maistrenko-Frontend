@@ -1,37 +1,37 @@
-.main {
+.about {
 	min-height: 695px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  background-image: url(/src/images/background-main.png);
-  color: var(--white);
+  background-image: url(../images/background-main.png);
 	text-align: center;
+  color: var(--white);
 }
 
-.main__content-title {
+.about__content-title {
 	margin-bottom: 20px;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.4;
 }
 
-.main__content strong {
+.about__content strong {
 	font-size: 60px;
 	font-weight: 700;
 }
 
-.main__content em {
+.about__content em {
 	font-style: normal;
 	color: var(--yellow);
 }
 
-.main__content-text {
+.about__content-text {
 	margin-bottom: 40px;
 	font-size: 18px;
 	line-height: 1.333;
 }
 
-.main__content-text p + p {
+.about__content-text p + p {
 	margin-top: 0.5em;
 }
 

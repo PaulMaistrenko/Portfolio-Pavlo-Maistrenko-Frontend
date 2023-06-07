@@ -50,11 +50,11 @@
 	transition: all 0.2s ease-in;
 }
 
-.nav-list__link:hover {
+.nav-list__link--active {
   color: var(--yellow);
+  border-bottom: 2px solid var(--yellow);
 }
 
-.active {
+.nav-list__link:hover {
   color: var(--yellow);
-  border-bottom: 1px solid var(--yellow);;
 }
