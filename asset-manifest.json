@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Pavlo-Maistrenko-Frontend/static/css/main.0f6196e2.css",
-    "main.js": "/Portfolio-Pavlo-Maistrenko-Frontend/static/js/main.840ded2c.js",
+    "main.js": "/Portfolio-Pavlo-Maistrenko-Frontend/static/js/main.e7f0a523.js",
     "static/media/background-main.png": "/Portfolio-Pavlo-Maistrenko-Frontend/static/media/background-main.631c42675a45f38a488e.png",
     "static/media/img-1.png": "/Portfolio-Pavlo-Maistrenko-Frontend/static/media/img-1.4725dba1329ec98b1ac0.png",
     "static/media/Javascript.png": "/Portfolio-Pavlo-Maistrenko-Frontend/static/media/Javascript.77a502752f6f3402c467.png",
@@ -15,10 +15,10 @@
     "static/media/linkedIn.svg": "/Portfolio-Pavlo-Maistrenko-Frontend/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/Portfolio-Pavlo-Maistrenko-Frontend/index.html",
     "main.0f6196e2.css.map": "/Portfolio-Pavlo-Maistrenko-Frontend/static/css/main.0f6196e2.css.map",
-    "main.840ded2c.js.map": "/Portfolio-Pavlo-Maistrenko-Frontend/static/js/main.840ded2c.js.map"
+    "main.e7f0a523.js.map": "/Portfolio-Pavlo-Maistrenko-Frontend/static/js/main.e7f0a523.js.map"
   },
   "entrypoints": [
     "static/css/main.0f6196e2.css",
-    "static/js/main.840ded2c.js"
+    "static/js/main.e7f0a523.js"
   ]
 }
